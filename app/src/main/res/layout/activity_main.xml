@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingHorizontal="20dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnQuickSettingsTile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Quick Settings Tile" />
+
+    <Button
+        android:id="@+id/btnPhotoPicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Photo Picker" />
+
+    <Button
+        android:id="@+id/btnPerAppLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Per App Language Preference" />
+
+    <Button
+        android:id="@+id/btnNotificationRuntimePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Notification Runtime Permission" />
+
+    <Button
+        android:id="@+id/btnNearByWifiDevicePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Nearby Wifi Device Permission" />
+
+    <Button
+        android:id="@+id/btnDowngradablePermission"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test Downgradable Permission" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Note: To test Themed App Icon - please change the device wallpaper and place the icon on the home screen to check app icon updated according to the wallpaper colors." />
+
+
+</LinearLayout>
